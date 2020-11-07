@@ -1,0 +1,7 @@
+/.metadata/
+.classpath
+.deployables
+.git
+.project
+.settings/
+target/
