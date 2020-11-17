@@ -1,4 +1,4 @@
-@charset "EUC-KR";
+@charset "UTF-8";
 
 body {
     background: url('')
@@ -29,7 +29,7 @@ li {
     padding-bottom: 20px
 }
 
-/* ¹è°æ
+/* ë°°ê²½
 .wrap {
     position: absolute;
     width: 100%;
