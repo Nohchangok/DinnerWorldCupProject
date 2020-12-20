@@ -6,6 +6,8 @@
 <meta charset="UTF-8">
 <title>DinnerWorldCup</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/footer.css">
 <script>
 
 /* window.onload = function(){
@@ -28,13 +30,16 @@ function imgClick(n){
 </script>
 </head>
 <body>
-
-	<div id="game" class="box">
-	    <h2 id="round_title" style="">DinnerWorldCup</h2>
-		<div class="frame"><img onclick="imgClick(1)" id="left_image" src="img/samgyeobsal.jpg"><div id="left_name" class="name">냉삼</div></div>
-		<div class="frame"><img onclick="imgClick(2)" id="right_image" src="img/tteokbokki.jpg"><div id="right_name" class="name">떡볶이</div></div>
-		<div class="vs"><img id="vs" src="img/vs.png"></div>
+	<header><jsp:include page="header.jsp"/></header>
+	<div class="container contents-wrap">
+		<div id="game" class="box">
+			<div class="frame"><img onclick="imgClick(1)" id="left_image" src="img/samgyeobsal.jpg"><div id="left_name" class="name">냉삼</div></div>
+			<div class="frame"><img onclick="imgClick(2)" id="right_image" src="img/tteokbokki.jpg"><div id="right_name" class="name">떡볶이</div></div>
+			<div class="vs"><img id="vs" src="img/vs.png"></div>
+		</div>
 	</div>
-
+	<footer><jsp:include page="footer.jsp"/></footer>
+	
 </body>
+
 </html>
